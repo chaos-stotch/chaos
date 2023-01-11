@@ -21,7 +21,6 @@ function Responsiveness() {
     const scrollLen = Math.ceil(scrollpx / winHeightPx*100/1.5) + 1
 
     setScrolled(scrollLen)
-    console.log(scrollLen)
   }
 
   return (

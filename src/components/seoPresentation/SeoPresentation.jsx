@@ -23,7 +23,7 @@ function SeoPresentation() {
 		<div className={`seoPresentation ${scrolled<51 ? 'presentationHide': 'presentationVisible'}`}>
 			<div className=".headerPresentationSeo">
         <div className="seoImages">
-          <img src={`./images/animations/seo/seo${(scrolled-48).toString().padStart(3, '0')}.png`}
+          <img src={`${process.env.PUBLIC_URL}/images/animations/seo/seo${(scrolled-48).toString().padStart(3, '0')}.png`}
             className={`gifFramesSeo`}
             alt='seo' />
         </div>

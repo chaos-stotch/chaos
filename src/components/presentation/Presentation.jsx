@@ -25,9 +25,10 @@ function Presentation() {
     <div className={`presentation ${scrolled>43 ? 'presentationHide': 'presentationVisible'}`}>
       <div className="headerPresentation">
         <div className="mantle" />
-        <img src={`./images/animations/paint-splash/paint-splash${scrolled.toString().padStart(5, '0')}.png`}
+        <img src={`${process.env.PUBLIC_URL}/images/animations/paint-splash/paint-splash${scrolled.toString().padStart(5, '0')}.png`}
+        //<img src={IMG1}
           className={`gifFrames`}
-          alt='splash-paint' />
+          alt='splash-apaint' />
       </div>
       <h1 className={`siteTitle ${scrolled>1 ? 'moved' : ''}`}>Chaos Development</h1>
       <div className={`description ${scrolled>12 ? 'hide' : ''}`}>
@@ -57,7 +58,7 @@ function Presentation() {
       <div className={`description ${scrolled<=37 ? 'hide' : ''} `}>
         <h3>Start right now!</h3>
       </div>
-      <a href="/contact">
+      <a href="/chaos/contact">
         <button className='callToAction'>
           let's start!
         </button>

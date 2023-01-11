@@ -25,7 +25,7 @@ function WebPresentation() {
 		<div className={`webPresentation ${scrolled>=50 ? 'presentationHide': 'presentationVisible'}`}>
 			<div className="headerPresentation">
         <div className="mantleWeb" />
-        <img src={`./images/animations/coding/coding${scrolled.toString().padStart(5, '0')}.png`}
+        <img src={`${process.env.PUBLIC_URL}/images/animations/coding/coding${scrolled.toString().padStart(5, '0')}.png`}
           className={`gifFrames`}
           alt='coding' />
 				<h1 className="serviceTitle">Web-Development</h1>
