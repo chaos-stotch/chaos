@@ -210,23 +210,35 @@
         height: 32rem;
     }
 
-    @keyframes fullVisibleDesktopReverse {}
+    @keyframes fullVisibleDesktopReverse {
+        from {
 
-    @keyframes fullVisibleDesktop {}
+        } to {
 
-    @keyframes fullVisibleMobileReverse {}
+        }
+    }
 
-    @keyframes fullVisibleMobile {}
+    @keyframes fullVisibleDesktop {
+        from {
+
+        } to {
+            
+        }
+    }
+
+    @keyframes fullVisibleMobileReverse {
+        from {
+
+        } to {
+            
+        }
+    }
+
+    @keyframes fullVisibleMobile {
+        from {
+
+        } to {
+            
+        }
+    }
 }
-
-/*========================== MEDIA QUERIES (MEDIUM DEVICES) ========================== */
-/* @media screen and (max-width: 600) {
-    .borderBackground.desktop {
-        height: 170px;
-        width: 301px;
-    }
-    .borderBackground.mobile {
-        height: 170px;
-        width: 301px;
-    }
-} */
