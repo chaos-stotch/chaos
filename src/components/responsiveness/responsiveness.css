@@ -199,7 +199,7 @@
         right: 10px;
         animation: none;
     }
-    
+
     .borderBackground.mobile.fullVisible {
         animation: none;
     }
@@ -228,7 +228,6 @@
         height: 100%;
         left: 0;
         top: 0;
-        animation: none;
     }
 
     .borderBackground.fullVisible {
