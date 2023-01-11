@@ -210,6 +210,22 @@
         height: 32rem;
     }
 
+    .rainbow.desktop {
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
+    .rainbow.mobile {
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
+
+    @keyframes spin {
+    }
+
     @keyframes fullVisibleDesktopReverse {
         from {
 
