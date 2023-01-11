@@ -1,7 +1,7 @@
 {
+  "homepage": "https://chaos-stotch.github.io/chaos",
   "name": "mysite",
   "version": "0.1.0",
-  "homepage": "https://chaos-stotch.github.io/chaos",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
