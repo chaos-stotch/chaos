@@ -5,12 +5,12 @@ import LOGOIMG from '../../images/logo.png'
 function header() {
   return (
     <header>
-      <a href="/"><img src={LOGOIMG} alt="logo" className='logo' /></a>
+      <a href="/chaos"><img src={LOGOIMG} alt="logo" className='logo' /></a>
       <div className='rightMenus'>
-        <a href="/services">
+        <a href="/chaos/services">
           <span className='menuPage servicesPage'>Services</span>
         </a>
-        <a href="/contact">
+        <a href="/chaos/contact">
           <span className='menuPage contactPage'>Contact</span>
         </a>
       </div>

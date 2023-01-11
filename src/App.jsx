@@ -15,36 +15,37 @@ import {
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <Routes>
-        <Route exact path ="/" element={
-          <div className="App">
-            <Navbar/>
-            <Presentation/>
-            <Responsiveness/>
-            <Technologies/>
-            <Footer/>
-          </div>
-        } />
-        <Route exact path ="/services" element={
-          <div className='Services'>
-            <Navbar/>
-            <WebPresentation/>
-            <SeoPresentation/>
-            <Footer/>
-          </div>
-        } />
-        <Route exact path ="/contact" element={
-          <div className='Services'>
-            <Navbar/>
-            <Contacts/>
-            <Footer/>
-          </div>
-        } />
-      </Routes>
-      
-    </BrowserRouter>
-    
+    <div className="App">
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <Routes>
+          <Route exact path ="/" element={
+            <div>
+              <Navbar/>
+              <Presentation/>
+              <Responsiveness/>
+              <Technologies/>
+              <Footer/>
+            </div>
+          } />
+          <Route exact path ="/services" element={
+            <div>
+              <Navbar/>
+              <WebPresentation/>
+              <SeoPresentation/>
+              <Footer/>
+            </div>
+          } />
+          <Route exact path ="/contact" element={
+            <div>
+              <Navbar/>
+              <Contacts/>
+              <Footer/>
+            </div>
+          } />
+        </Routes>
+      </BrowserRouter>
+    </div>
+
   );
 }
 
