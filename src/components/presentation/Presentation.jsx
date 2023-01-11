@@ -58,7 +58,7 @@ function Presentation() {
       <div className={`description ${scrolled<=37 ? 'hide' : ''} `}>
         <h3>Start right now!</h3>
       </div>
-      <a href="/chaos/contact">
+      <a href="/chaos/#/contact">
         <button className='callToAction'>
           let's start!
         </button>

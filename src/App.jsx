@@ -8,7 +8,6 @@ import SeoPresentation from './components/seoPresentation/SeoPresentation';
 import Contacts from './components/contacts/Contacts'
 
 import {
-  BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
@@ -16,7 +15,6 @@ import {
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route exact path ="/" element={
             <div>
@@ -43,7 +41,6 @@ function App() {
             </div>
           } />
         </Routes>
-      </BrowserRouter>
     </div>
 
   );

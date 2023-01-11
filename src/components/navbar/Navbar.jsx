@@ -7,10 +7,10 @@ function header() {
     <header>
       <a href="/chaos"><img src={LOGOIMG} alt="logo" className='logo' /></a>
       <div className='rightMenus'>
-        <a href="/chaos/services">
+        <a href="/chaos/#/services">
           <span className='menuPage servicesPage'>Services</span>
         </a>
-        <a href="/chaos/contact">
+        <a href="/chaos/#/contact">
           <span className='menuPage contactPage'>Contact</span>
         </a>
       </div>
