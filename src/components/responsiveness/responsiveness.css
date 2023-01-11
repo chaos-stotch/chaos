@@ -181,6 +181,7 @@
         height: 170px;
         width: 301px;
         top: 0rem;
+        animation: none;
     }
 
     .rainbow.desktop {
@@ -196,6 +197,11 @@
         top: 1rem;
         left: auto;
         right: 10px;
+        animation: none;
+    }
+    
+    .borderBackground.mobile.fullVisible {
+        animation: none;
     }
 
     .responsiveness>.description {
@@ -215,46 +221,18 @@
         height: 100%;
         left: 0;
         top: 0;
+        animation: none;
     }
     .rainbow.mobile {
         width: 100%;
         height: 100%;
         left: 0;
         top: 0;
+        animation: none;
     }
 
-    @keyframes spin {
+    .borderBackground.fullVisible {
+        animation: none;
     }
 
-    @keyframes fullVisibleDesktopReverse {
-        from {
-
-        } to {
-
-        }
-    }
-
-    @keyframes fullVisibleDesktop {
-        from {
-
-        } to {
-            
-        }
-    }
-
-    @keyframes fullVisibleMobileReverse {
-        from {
-
-        } to {
-            
-        }
-    }
-
-    @keyframes fullVisibleMobile {
-        from {
-
-        } to {
-            
-        }
-    }
 }
