@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Comfortaa';
+    color: var(--color-white-bone);
+}
+
+:root {
+    --color-bg: #000000;
+    --color-white-bone: #F6F7F8;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: white;
+}

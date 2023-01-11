@@ -1,0 +1,46 @@
+.contacts {
+    margin-top: 3rem;
+    height: 60rem;
+}
+
+.contactTitle {
+    margin-left: 8rem;
+    margin-top: 6rem;
+
+    text-shadow:
+        0 0 7px rgba(255, 0, 0, 0.623),
+        0 0 10px rgba(255, 255, 255, 0.486)
+}
+
+.contactList {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20rem;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    margin: 200px 0 0px 10px;
+    font-size: 18px;
+}
+
+.contact > h4 {
+    padding-left: 2rem;
+    transform: translateY(25%);
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+/*========================== MEDIA QUERIES (MEDIUM DEVICES) ========================== */
+@media screen and (max-width: 1300px) {
+    .contactTitle {
+        width: 100%;
+        text-align: center;
+        margin-left: 0rem;
+    }
+}

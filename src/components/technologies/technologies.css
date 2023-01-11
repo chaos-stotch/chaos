@@ -1,0 +1,79 @@
+.technologies {
+    position: relative;
+    z-index: 200;
+    height: 58rem;
+    background: black;
+}
+
+.technologiesTitle {
+    position: absolute;
+    top: 6rem;
+    left: 2rem;
+    font-size: 32px;
+
+    text-shadow:
+        0 0 7px rgba(255, 0, 0, 0.623),
+        0 0 10px rgba(255, 255, 255, 0.486)
+}
+
+.technologies > .description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40rem;
+    border-radius: 25px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.techIcons {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40rem;
+    text-align: center;
+}
+
+.techIcon {
+    width: 32px;
+    margin: 15px;
+    opacity: .5;
+}
+
+.techIcon:hover {
+    animation-name: icon;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes icon {
+    from {
+        width: 32px;
+        opacity: 1;
+    } to {
+        width: 36px;
+        opacity: 1;
+    }
+}
+
+/*========================== MEDIA QUERIES (MEDIUM DEVICES) ========================== */
+@media screen and (max-width: 1300px) {
+    .technologies {
+        height: 30rem;
+    }
+    .technologiesTitle {
+        top: 4rem;
+        text-align: center;
+        left: 0;
+        width: 100%;
+    }
+    .technologies > .description {
+        width: 100%;
+        top: 15rem;
+    }
+    .techIcons {
+        width: 100%;
+    }
+}

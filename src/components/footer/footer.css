@@ -1,0 +1,48 @@
+.pageFooter {
+    position: relative;
+    display: flex;
+    padding: 10px;
+    z-index: 2;
+}
+
+.footerBorder {
+    position: absolute;
+    border-radius: 0;
+    border-top: 1px solid var(--color-white-bone);
+    width: 90%;
+    height: 50%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.devGithub {
+    position: absolute;
+    color: rgb(161, 161, 161);
+    font-weight: bold;
+
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.devGithub:hover {
+    color: var(--color-white-bone);
+}
+
+.footerCenter {
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    color: var(--color-white-bone);
+}
+
+/*========================== MEDIA QUERIES (MEDIUM DEVICES) ========================== */
+@media screen and (max-width: 1300px) {
+    .footerCenter {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .devGithub {
+        opacity: 0;
+    }
+}

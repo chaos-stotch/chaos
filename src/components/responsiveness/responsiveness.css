@@ -1,0 +1,232 @@
+.responsiveness {
+    position: relative;
+    z-index: 200;
+    height: 58rem;
+    background: #000;
+}
+
+.responsiveness>.mantle {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+    height: 100%;
+    margin-top: 0;
+}
+
+.neonBack {
+    position: absolute;
+    top: 0;
+    width: 1000px;
+    z-index: -1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.borderBackground.mobile {
+    position: absolute;
+    top: 18rem;
+    left: 65%;
+    z-index: 2;
+    height: 432px;
+    width: 200px;
+
+    overflow: hidden;
+
+    animation-name: fullVisibleMobileReverse;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+
+}
+
+.rainbow.mobile {
+    width: 490%;
+    height: 200%;
+    position: absolute;
+    content: "";
+    background: conic-gradient(#fd004c,
+            #fe9000,
+            #fff020,
+            #3edf4b,
+            #3363ff,
+            #b102b7,
+            #fd004c);
+    z-index: -1;
+    left: -200%;
+    top: -50%;
+    animation: spin 5s infinite linear;
+}
+
+.mobileScreen {
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+}
+
+.borderBackground.mobile.fullVisible {
+    animation-name: fullVisibleMobile;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+}
+
+.borderBackground.desktop {
+    position: absolute;
+    top: 10rem;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 510px;
+    width: 903px;
+
+    overflow: hidden;
+
+    animation-name: fullVisibleDesktopReverse;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+}
+
+.rainbow.desktop {
+    width: 200%;
+    height: 300%;
+    position: absolute;
+    content: "";
+    background: conic-gradient(#fd004c,
+            #fe9000,
+            #fff020,
+            #3edf4b,
+            #3363ff,
+            #b102b7,
+            #fd004c);
+    left: -50%;
+    top: -100%;
+    z-index: -1;
+    animation: spin 5s infinite linear;
+}
+
+.desktopScreen {
+    height: 100%;
+    width: 100%;
+    padding: 2px;
+}
+
+.borderBackground.fullVisible {
+    animation-name: fullVisibleDesktop;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+}
+
+.responsiveness>.description {
+    position: absolute;
+    top: 46rem;
+    left: 50%;
+    transform: translateX(-75%);
+    width: 32rem;
+}
+
+@keyframes fullVisibleMobile {
+    from {
+        width: 200px;
+        height: 432px;
+    }
+
+    to {
+        width: 250px;
+        height: 540px;
+    }
+}
+
+@keyframes fullVisibleMobileReverse {
+    from {
+        width: 250px;
+        height: 540px;
+    }
+
+    to {
+        width: 200px;
+        height: 432px;
+    }
+}
+
+@keyframes fullVisibleDesktop {
+    from {
+        height: 442px;
+        width: 782px;
+    }
+
+    to {
+        height: 510px;
+        width: 903px;
+    }
+}
+
+@keyframes fullVisibleDesktopReverse {
+    from {
+        height: 510px;
+        width: 903px;
+    }
+
+    to {
+        height: 442px;
+        width: 782px;
+    }
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+/*========================== MEDIA QUERIES (MEDIUM DEVICES) ========================== */
+@media screen and (max-width: 1300px) {
+    .borderBackground.desktop {
+        height: 170px;
+        width: 301px;
+        top: 0rem;
+    }
+
+    .rainbow.desktop {
+        width: 150%;
+        height: 250%;
+        left: -25%;
+        top: -50%;
+    }
+
+    .borderBackground.mobile {
+        height: 216px;
+        width: 100px;
+        top: 1rem;
+        left: auto;
+        right: 10px;
+    }
+
+    .responsiveness>.description {
+        padding: 1rem;
+        top: 14rem;
+        left: 0%;
+        transform: translateX(0%);
+        width: 100%;
+    }
+
+    .responsiveness {
+        height: 32rem;
+    }
+
+    @keyframes fullVisibleDesktopReverse {}
+
+    @keyframes fullVisibleDesktop {}
+
+    @keyframes fullVisibleMobileReverse {}
+
+    @keyframes fullVisibleMobile {}
+}
+
+/*========================== MEDIA QUERIES (MEDIUM DEVICES) ========================== */
+/* @media screen and (max-width: 600) {
+    .borderBackground.desktop {
+        height: 170px;
+        width: 301px;
+    }
+    .borderBackground.mobile {
+        height: 170px;
+        width: 301px;
+    }
+} */

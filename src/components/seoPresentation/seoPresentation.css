@@ -1,0 +1,77 @@
+.seoPresentation {
+    top: 0;
+    width: 100%;
+    position:fixed;
+    bottom: 0;
+}
+
+.seoImages {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.seoPresentation.presentationHide {
+    animation-name: hide_presentation;
+    animation-duration: 0;
+    animation-fill-mode: forwards;
+}
+
+.seoPresentation.presentationVisible {
+    animation-name: show_presentation;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+}
+
+.gifFramesSeo {
+    position: relative;
+    height: 100px;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+}
+
+.seoPresentation > .description {
+    position: fixed;
+    right: 2rem;
+    bottom: 12rem;
+    width: 32rem;
+    font-size: 24px;
+    z-index: 2;
+    transform: translateY(30rem);
+
+    animation-name: slide;
+    animation-duration: .6s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hide_presentation {
+    from {
+        opacity: 1;
+    } to {
+        opacity: 0;
+    }
+}
+
+@keyframes show_presentation {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+/*========================== MEDIA QUERIES (MEDIUM DEVICES) ========================== */
+@media screen and (max-width: 1300px) {
+    .serviceTitle {
+        left: 1rem;
+    }
+    .seoPresentation > .description {
+        font-size: 18px;
+        width: 100%;
+        right: 0;
+        bottom: 8rem;
+        padding: 2rem;
+        text-align: center;
+    }
+}
