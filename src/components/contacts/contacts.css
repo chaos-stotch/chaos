@@ -8,7 +8,7 @@
     margin-top: 6rem;
 
     text-shadow:
-        0 0 7px rgba(255, 0, 0, 0.623),
+        0 0 7px var(--color-primary),
         0 0 10px rgba(255, 255, 255, 0.486)
 }
 
@@ -24,6 +24,10 @@
     display: flex;
     margin: 200px 0 0px 10px;
     font-size: 18px;
+}
+
+.contact h4 {
+    color: var(--color-primary);
 }
 
 .contact > h4 {

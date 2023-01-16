@@ -8,12 +8,14 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Comfortaa';
-    color: var(--color-white-bone);
+    color: white;
 }
 
 :root {
     --color-bg: #000000;
-    --color-white-bone: #F6F7F8;
+    --color-bg-variant: #28252b;
+    --color-primary: #fbb900;
+    --color-primary-variant: rgba(244, 83, 4, .3);
 }
 
 body {
