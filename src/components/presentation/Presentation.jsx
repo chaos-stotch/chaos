@@ -16,9 +16,7 @@ function Presentation() {
 
     const scrollLen = Math.ceil(scrollpx / winHeightPx*100/.8) + 3
 
-    if(scrollLen <90) {
-      setScrolled(scrollLen)
-    }
+    setScrolled(scrollLen)
   }
 
   return (
@@ -31,31 +29,17 @@ function Presentation() {
       </div>
       <h1 className={`siteTitle ${scrolled>1 ? 'moved' : ''}`}>Chaos Development</h1>
       <div className={`description ${scrolled>20 ? 'hide' : ''}`}>
-        <h3>Chaos Development is a company dedicated to Web development, front-end, and back-end.</h3>
-        <br />
-        <h3>We will develop the most complex functionalities required. Modern and bold websites.</h3>
-        <br />
-        <h5>Click the button. Let's get started!</h5>
+        <h3>Welcome to Chaos Development, your one-stop solution for professional web development. We specialize in creating user-friendly and visually appealing websites that are optimized for search engines and easy to navigate. Let us help your business stand out online and reach a wider audience.</h3>
       </div>
       
       <div className={`description ${scrolled<=20 || scrolled > 40 ? 'hide' : ''} `}>
-        <h3>In addition to the website, we deliver the following:</h3>
-        <ul>
-          <br />
-          <li>More visitors.</li>
-          <li>Great ranking on google.</li>
-          <li>Quality in user experience.</li>
-          <li>Standout from the competition.</li>
-          <li>Less work to present your products and services to customers.</li>
-        </ul>
+        <h3>Your website is often the first impression potential customers have of your business. At Chaos Development, we understand the importance of making that impression a positive one. That's why our team of web development experts will work with you to create a website that meets your specific needs and budget.</h3>
       </div>
       <div className={`description ${scrolled<=40 || scrolled > 60 ? 'hide' : ''} `}>
-        <h3>Modern UI, Efficient Backend.</h3>
-        <br />
-        <h3>With the most modern technology, we develop websites at a business level.</h3>
+        <h3>In today's digital age, having a website is crucial for any small business to succeed. At Chaos Development, we have the expertise and experience to help your business thrive online. From simple one-page websites to more complex web applications, we've got you covered.</h3>
       </div>
       <div className={`description ${scrolled<=60 ? 'hide' : ''} `}>
-        <h3>Start right now!</h3>
+        <h3>Don't let a subpar website hold your business back. At Chaos Development, we specialize in creating professional, visually appealing and effective websites that are optimized for search engines and easy to navigate. Let us help you increase your online presence and reach a wider audience. Contact us today to learn more about our services!</h3>
       </div>
       <a href="/chaos/#/contact">
         <button className='callToAction'>

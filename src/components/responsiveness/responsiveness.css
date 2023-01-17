@@ -1,7 +1,7 @@
 .responsiveness {
     position: relative;
     z-index: 200;
-    height: 58rem;
+    height: 70rem;
     background: linear-gradient(to top, var(--color-second-bg), var(--color-bg));
 }
 

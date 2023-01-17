@@ -14,11 +14,7 @@ function Technologies() {
         </h2>
 
         <div className='description'>
-          <p>React: A JavaScript library for building user interfaces</p>
-          <br />
-          <p>HTML (the Hypertext Markup Language) and CSS (Cascading Style Sheets) are two of the core technologies for building Web pages. </p>
-          <br />
-          <p>Node.js is designed to build scalable network applications.</p>
+          <p>At Chaos Development, we stay on top of the latest technologies to ensure that your website is not only visually appealing but also fast, reliable and secure. We specialize in using ReactJS, HTML, and CSS to create dynamic and responsive websites that are optimized for search engines and easy to navigate. With our team of experts, you can be sure that your website will be built using the best tools and practices in the industry.</p>
         </div>
         <div className="techIcons">
           <img src={IMG1} alt="" className='techIcon' />

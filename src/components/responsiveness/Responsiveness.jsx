@@ -34,10 +34,7 @@ function Responsiveness() {
           <img src={IMG1} alt="desktop screen" className="desktopScreen" />
         </div>
         <div className="description">
-          <h3>Receive a beautiful site in all screen sizes.</h3>
-          <h3>As for responsiveness, we customize even the smallest detail. Practically one site for desktop and one for mobile.</h3>
-          <br />
-          <h3>Throughout the development process, we are detail-oriented and attentive.</h3>
+          <h3>At Chaos Development, we understand the importance of having a website that looks great and works seamlessly on any device. That's why we pay close attention to the details and ensure that all of our websites are fully responsive and optimized for all screen sizes. Our team of experts will work with you to create a website that not only looks great but also provides an outstanding user experience for your customers, no matter where they are accessing your site from.</h3>
         </div>
     </div>
   )
