@@ -25,7 +25,6 @@ function Responsiveness() {
 
   return (
     <div className='responsiveness'>
-        <div className="mantle"></div>
         <div className={`borderBackground mobile ${scrolled>=55&&scrolled<=60 ? 'fullVisible' : ''}`}>
           <div className="rainbow mobile"></div>
           <img src={IMG2} alt="mobile screen" id='box' className="mobileScreen" />

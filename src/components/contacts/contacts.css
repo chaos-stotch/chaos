@@ -1,11 +1,12 @@
 .contacts {
-    margin-top: 3rem;
+    padding: 6rem 0 60rem 0;
     height: 60rem;
+    background-image: url('../../images/background_pixel.png');
+    background-repeat: repeat;
 }
 
 .contactTitle {
     margin-left: 8rem;
-    margin-top: 6rem;
 
     text-shadow:
         0 0 7px var(--color-primary),

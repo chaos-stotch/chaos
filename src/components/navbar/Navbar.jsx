@@ -7,11 +7,14 @@ function header() {
     <header>
       <a href="/chaos"><img src={LOGOIMG} alt="logo" className='logo' /></a>
       <div className='rightMenus'>
-        <a href="/chaos/#/services">
-          <span className='menuPage servicesPage'>Services</span>
+        <a href="/chaos/#/portfolio">
+          <span className='menuPage servicesPage'>portfolio</span>
+        </a>
+        <a href="/chaos/#/pricing">
+          <span className='menuPage servicesPage'>pricing</span>
         </a>
         <a href="/chaos/#/contact">
-          <span className='menuPage contactPage'>Contact</span>
+          <span className='menuPage contactPage'>contact</span>
         </a>
       </div>
     </header>

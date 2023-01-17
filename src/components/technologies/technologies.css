@@ -2,12 +2,12 @@
     position: relative;
     z-index: 200;
     height: 58rem;
-    background: black;
+    background: linear-gradient(to bottom, var(--color-second-bg), var(--color-bg))
 }
 
 .technologiesTitle {
     position: absolute;
-    top: 6rem;
+    top: 16rem;
     left: 2rem;
     font-size: 32px;
 
@@ -72,6 +72,8 @@
     .technologies > .description {
         width: 100%;
         top: 15rem;
+        line-height: 20px;
+        text-align: left;
     }
     .techIcons {
         width: 100%;

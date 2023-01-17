@@ -1,0 +1,94 @@
+#portfolio {
+    padding: 6rem 2rem 6rem 2rem;
+}
+
+#portfolio h1 {
+    padding: 2rem;
+    text-shadow:
+        0 0 7px var(--color-primary),
+        0 0 10px rgba(255, 255, 255, 0.486)
+}
+
+.portfolio__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.portfolio__container img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.portfolio__item {
+    background: var(--color-bg-variant);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+}
+
+.portfolio__item:hover {
+    border-color: var(--color-primary);
+    background: transparent;
+}
+
+.portfolio__item-image {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.portfolio__item h3 {
+    margin: 1.2rem 0 2rem;
+}
+
+.portfolio__item-cta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+a[href$='none']{
+    display: none;
+}
+
+.btn {
+    width: max-content;
+    display: inline-block;
+    color: white;
+    padding: 0.75rem 1.2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: 2px solid white;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+
+.portfolio__container {
+    margin: 0 auto;
+}
+
+/*========================== MEDIA QUERIES (MEDIUM DEVICES) ========================== */
+@media screen and (max-width: 1024px) {
+    .portfolio__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+    .container {
+        width: 86%;
+    }
+}
+/*========================== MEDIA QUERIES (SMALL DEVICES) ========================== */
+@media screen and (max-width: 600px) {
+    .portfolio__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .container {
+        width: 90%;
+    }
+}

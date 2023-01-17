@@ -1,0 +1,47 @@
+.pricing {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    height: 60rem;
+}
+
+.pricingTitle {
+    width: 100%;
+    text-align: center;
+    left: 50%;
+    text-shadow:
+        0 0 7px var(--color-primary),
+        0 0 10px rgba(255, 255, 255, 0.486)
+}
+
+th, td {
+    border: 1px solid var(--color-primary);
+    border-radius: 5px;
+    text-align: center;
+    line-height: 20px;
+    padding: 5px 0 5px 0;
+}
+
+th {
+    background-color: var(--color-primary);
+    color: black;
+}
+
+.pricing table {
+    position: relative;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.pricing ul li {
+    margin-left: 2rem;
+    color: var(--color-primary);
+}
+
+.pricing ul li span {
+    color: white;
+}
+
+.pricing h3, p {
+    margin-left: 2rem;
+}

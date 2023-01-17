@@ -14,24 +14,23 @@ function Presentation() {
     const scrollpx = document.documentElement.scrollTop;
     const winHeightPx = document.documentElement.scrollHeight - document.documentElement.clientHeight
 
-    const scrollLen = Math.ceil(scrollpx / winHeightPx*100/1.5) + 1
+    const scrollLen = Math.ceil(scrollpx / winHeightPx*100/.8) + 3
 
-    if(scrollLen <62) {
+    if(scrollLen <90) {
       setScrolled(scrollLen)
     }
   }
 
   return (
-    <div className={`presentation ${scrolled>43 ? 'presentationHide': 'presentationVisible'}`}>
+    <div className={`presentation ${scrolled>80 ? 'presentationHide': 'presentationVisible'}`}>
       <div className="headerPresentation">
         <div className="mantle" />
-        <img src={`${process.env.PUBLIC_URL}/images/animations/paint-splash/paint-splash${scrolled.toString().padStart(5, '0')}.png`}
-        //<img src={IMG1}
+        <img src={`${process.env.PUBLIC_URL}/images/animations/ray/ray${scrolled.toString().padStart(5, '0')}.png`}
           className={`gifFrames`}
           alt='splash-apaint' />
       </div>
       <h1 className={`siteTitle ${scrolled>1 ? 'moved' : ''}`}>Chaos Development</h1>
-      <div className={`description ${scrolled>12 ? 'hide' : ''}`}>
+      <div className={`description ${scrolled>20 ? 'hide' : ''}`}>
         <h3>Chaos Development is a company dedicated to Web development, front-end, and back-end.</h3>
         <br />
         <h3>We will develop the most complex functionalities required. Modern and bold websites.</h3>
@@ -39,7 +38,7 @@ function Presentation() {
         <h5>Click the button. Let's get started!</h5>
       </div>
       
-      <div className={`description ${scrolled<=12 || scrolled > 25 ? 'hide' : ''} `}>
+      <div className={`description ${scrolled<=20 || scrolled > 40 ? 'hide' : ''} `}>
         <h3>In addition to the website, we deliver the following:</h3>
         <ul>
           <br />
@@ -50,12 +49,12 @@ function Presentation() {
           <li>Less work to present your products and services to customers.</li>
         </ul>
       </div>
-      <div className={`description ${scrolled<=25 || scrolled > 37 ? 'hide' : ''} `}>
+      <div className={`description ${scrolled<=40 || scrolled > 60 ? 'hide' : ''} `}>
         <h3>Modern UI, Efficient Backend.</h3>
         <br />
         <h3>With the most modern technology, we develop websites at a business level.</h3>
       </div>
-      <div className={`description ${scrolled<=37 ? 'hide' : ''} `}>
+      <div className={`description ${scrolled<=60 ? 'hide' : ''} `}>
         <h3>Start right now!</h3>
       </div>
       <a href="/chaos/#/contact">

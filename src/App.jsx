@@ -3,9 +3,9 @@ import Presentation from './components/presentation/Presentation'
 import Responsiveness from './components/responsiveness/Responsiveness'
 import Technologies from './components/technologies/Technologies';
 import Footer from './components/footer/Footer'
-import WebPresentation from './components/webPresentation/WebPresentation';
-import SeoPresentation from './components/seoPresentation/SeoPresentation';
 import Contacts from './components/contacts/Contacts'
+import Pricing from './components/pricing/Pricing';
+import Portfolio from './components/portfolio/Portfolio';
 
 import {
   Routes,
@@ -25,11 +25,17 @@ function App() {
               <Footer/>
             </div>
           } />
-          <Route exact path ="/services" element={
+          <Route exact path ="/portfolio" element={
             <div>
               <Navbar/>
-              <WebPresentation/>
-              <SeoPresentation/>
+              <Portfolio/>
+              <Footer/>
+            </div>
+          } />
+          <Route exact path ="/pricing" element={
+            <div>
+              <Navbar/>
+              <Pricing/>
               <Footer/>
             </div>
           } />
