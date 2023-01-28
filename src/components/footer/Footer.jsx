@@ -1,7 +1,10 @@
 import React from 'react'
 import './footer.css'
+import { useTranslation } from 'react-i18next'
 
 function Footer() {
+  const { t } = useTranslation()
+
   return (
     <footer className='pageFooter'>
       <div className="footerBorder"></div>
@@ -11,7 +14,9 @@ function Footer() {
         <div className="footerCenter">
             <span>Chaos Development</span>
             <br />
-            <span>Copyright © 2023 Chaos Development. All rights reserved.</span>
+            <span>
+              {t("Copyright © 2023 Chaos Development. All rights reserved.")}
+            </span>
         </div>
     </footer>
   )

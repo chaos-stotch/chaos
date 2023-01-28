@@ -2,7 +2,7 @@
     position: relative;
     z-index: 200;
     height: 70rem;
-    background: linear-gradient(to top, var(--color-second-bg), var(--color-bg));
+    background: linear-gradient(to top, white, white, var(--color-bg));
 }
 
 .responsiveness>.mantle {
@@ -119,6 +119,9 @@
     left: 50%;
     transform: translateX(-75%);
     width: 32rem;
+}
+.responsiveness>.description h3 {
+    color: black;
 }
 
 @keyframes fullVisibleMobile {

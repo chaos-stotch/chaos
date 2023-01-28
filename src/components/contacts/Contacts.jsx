@@ -3,11 +3,16 @@ import './contacts.css'
 import { MdEmail } from 'react-icons/md'
 import { FaDiscord } from 'react-icons/fa'
 import { IoLogoWhatsapp } from 'react-icons/io'
+import { useTranslation } from 'react-i18next'
 
 function Contacts() {
+	const { t } = useTranslation()
+
   return (
     <div className='contacts'>
-        <h1 className='contactTitle'>Contact</h1>
+        <h1 className='contactTitle'>
+					{t("Contact")}
+				</h1>
         <div className="contactList">
             <a href="mailto:chaos_stotch@proton.me">
                 <div className="contact">
@@ -16,14 +21,14 @@ function Contacts() {
                 </div>
             </a>
             
-            <a href="https://discordapp.com/users/1049084140059885720/">
+            <a href="https://discordapp.com/users/1049084140059885720/" rel="noreferrer" target={'_blank'}>
                 <div className="contact">
                     <FaDiscord className='icon'/>
                     <h4>chaos#4139</h4>
                 </div>
             </a>
 
-            <a href="https://wa.me/5519991168007">
+            <a href="https://wa.me/5519991168007" rel="noreferrer" target={'_blank'}>
                <div className="contact">
                     <IoLogoWhatsapp className='icon'/>
                     <h4>+55 19 99116-8007</h4>

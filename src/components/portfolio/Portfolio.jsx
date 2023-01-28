@@ -7,6 +7,7 @@ import IMG3 from '../../images/portfolio-netflix.png'
 import IMG4 from '../../images/portfolio-pokedex.png'
 import IMG5 from '../../images/portfolio-portfolio.png'
 import IMG6 from '../../images/portfolio-qr.png'
+import { useTranslation } from 'react-i18next'
 
 const data = [
   {
@@ -54,9 +55,13 @@ const data = [
 ]
 
 function Portfolio() {
+  const { t } = useTranslation()
+
   return (
     <section id="portfolio">
-      <h1>Portfolio</h1>
+      <h1>
+        {t("Portfolio")}
+      </h1>
 
       <div className="portfolio__container">
       {
@@ -69,7 +74,9 @@ function Portfolio() {
                   <h3>{title}</h3>
                   <div className="portfolio__item-cta">
                     <a href={github} className='btn btn-primary' rel="noreferrer" target={'_blank'}><BsGithub/></a>
-                    <a href={demo} className='btn' rel="noreferrer" target={'_blank'}>Live Demo</a>
+                    <a href={demo} className='btn' rel="noreferrer" target={'_blank'}>
+                      {t("Live Demo")}
+                    </a>
                 </div>
             </article>
           )

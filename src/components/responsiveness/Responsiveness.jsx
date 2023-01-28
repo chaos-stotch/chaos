@@ -1,7 +1,8 @@
 import React from 'react'
 import {useEffect, useState} from 'react'
-
 import './responsiveness.css'
+import { useTranslation } from 'react-i18next'
+
 import IMG1 from '../../images/desktop-screen.png'
 import IMG2 from '../../images/mobile-screen.png'
 
@@ -23,6 +24,8 @@ function Responsiveness() {
     setScrolled(scrollLen)
   }
 
+  const { t } = useTranslation()
+
   return (
     <div className='responsiveness'>
         <div className={`borderBackground mobile ${scrolled>=55&&scrolled<=60 ? 'fullVisible' : ''}`}>
@@ -34,7 +37,9 @@ function Responsiveness() {
           <img src={IMG1} alt="desktop screen" className="desktopScreen" />
         </div>
         <div className="description">
-          <h3>At Chaos Development, we understand the importance of having a website that looks great and works seamlessly on any device. That's why we pay close attention to the details and ensure that all of our websites are fully responsive and optimized for all screen sizes. Our team of experts will work with you to create a website that not only looks great but also provides an outstanding user experience for your customers, no matter where they are accessing your site from.</h3>
+          <h3>
+            {t("At Chaos Development, we understand the importance of having a website that looks great and works seamlessly on any device. That's why we pay close attention to the details and ensure that all of our websites are fully responsive and optimized for all screen sizes. Our team of experts will work with you to create a website that not only looks great but also provides an outstanding user experience for your customers, no matter where they are accessing your site from.")}
+          </h3>
         </div>
     </div>
   )

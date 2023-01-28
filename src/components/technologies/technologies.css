@@ -2,7 +2,7 @@
     position: relative;
     z-index: 200;
     height: 58rem;
-    background: linear-gradient(to bottom, var(--color-second-bg), var(--color-bg))
+    background: linear-gradient(to bottom, white, white, var(--color-bg))
 }
 
 .technologiesTitle {
@@ -10,10 +10,10 @@
     top: 16rem;
     left: 2rem;
     font-size: 32px;
-
+    color: black;
     text-shadow:
-        0 0 7px var(--color-primary),
-        0 0 10px rgba(255, 255, 255, 0.486)
+        0 0 7px rgba(61, 59, 178, .4),
+        0 0 10px rgba(61, 59, 178, .2)
 }
 
 .technologies > .description {
@@ -25,6 +25,10 @@
     border-radius: 25px;
     padding: 2rem;
     text-align: center;
+}
+
+.technologies > .description p {
+    color: black;
 }
 
 .techIcons {
@@ -39,7 +43,7 @@
 .techIcon {
     width: 32px;
     margin: 15px;
-    opacity: .5;
+    opacity: .8;
 }
 
 .techIcon:hover {
