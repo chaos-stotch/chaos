@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/chaos/static/css/main.90069c43.css",
-    "main.js": "/chaos/static/js/main.b7ec4061.js",
+    "main.css": "/chaos/static/css/main.1ccd2a63.css",
+    "main.js": "/chaos/static/js/main.87a92d9e.js",
     "static/media/mobile-screen.png": "/chaos/static/media/mobile-screen.852f57a65a4ba4ae4926.png",
     "static/media/portfolio-netflix.png": "/chaos/static/media/portfolio-netflix.c6f9723cf390bb3e8a6c.png",
     "static/media/desktop-screen.png": "/chaos/static/media/desktop-screen.a7233734c9f86b026b98.png",
@@ -16,11 +16,11 @@
     "static/media/html.png": "/chaos/static/media/html.6e930594286d8afe4c79.png",
     "static/media/css-3.png": "/chaos/static/media/css-3.463e319bad8e0edf1ef7.png",
     "index.html": "/chaos/index.html",
-    "main.90069c43.css.map": "/chaos/static/css/main.90069c43.css.map",
-    "main.b7ec4061.js.map": "/chaos/static/js/main.b7ec4061.js.map"
+    "main.1ccd2a63.css.map": "/chaos/static/css/main.1ccd2a63.css.map",
+    "main.87a92d9e.js.map": "/chaos/static/js/main.87a92d9e.js.map"
   },
   "entrypoints": [
-    "static/css/main.90069c43.css",
-    "static/js/main.b7ec4061.js"
+    "static/css/main.1ccd2a63.css",
+    "static/js/main.87a92d9e.js"
   ]
 }
