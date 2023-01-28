@@ -13,7 +13,7 @@ function Technologies() {
   return (
     <div className='technologies'>
         <h2 className='technologiesTitle'>
-            Technologies
+          {t("Technologies")}
         </h2>
 
         <div className='description'>
