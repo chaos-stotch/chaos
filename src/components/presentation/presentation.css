@@ -196,17 +196,17 @@ li {
 
     @keyframes title {
         from {
-            font-size: 32px;
+            font-size: 24px;
         } to {
-            font-size: 28px;
+            font-size: 20px;
         }
     }
 
     @keyframes movedTitle {
         from {
-            font-size: 28px;
+            font-size: 20px;
         } to {
-            font-size: 32px;
+            font-size: 24px;
         }
     }
 }
