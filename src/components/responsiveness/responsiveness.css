@@ -1,6 +1,6 @@
 .responsiveness {
     position: relative;
-    z-index: 200;
+    z-index: 201;
     height: 70rem;
     background: linear-gradient(to top, white, white, var(--color-bg));
 }
@@ -182,7 +182,7 @@
 @media screen and (max-width: 1300px) {
     .borderBackground.desktop {
         height: 170px;
-        width: 301px;
+        width: 290px;
         top: 0rem;
         animation: none;
     }
@@ -217,7 +217,7 @@
     }
 
     .responsiveness {
-        height: 32rem;
+        height: 38rem;
     }
 
     .borderBackground.fullVisible {

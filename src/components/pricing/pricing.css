@@ -45,3 +45,13 @@ th {
 .pricing h3, p {
     margin-left: 2rem;
 }
+
+@media screen and (max-width: 600px) {
+    .pricing {
+        height: 80rem;
+    }
+
+    .pricing table {
+        font-size: 10px;
+    }
+}
