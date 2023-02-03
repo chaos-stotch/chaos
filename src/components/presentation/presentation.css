@@ -30,6 +30,12 @@
     z-index: 1;
 }
 
+.loadImg {
+    visibility:hidden;
+    width: 0;
+    height: 0;
+}
+
 .presentation > .description {
     position: fixed;
     right: 2rem;
