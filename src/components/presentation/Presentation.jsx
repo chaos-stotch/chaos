@@ -25,6 +25,10 @@ function Presentation() {
 
   const { t } = useTranslation()
 
+  const styleObj = {
+    backgroundImage: `linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) ${(scrolled-3)*1.3}%, rgba(0, 0, 0, 1) 0)`
+}
+
   return (
     <div className={`presentation ${scrolled>80 ? 'presentationHide': 'presentationVisible'}`}>
       <div className="headerPresentation">
@@ -36,27 +40,28 @@ function Presentation() {
       <h1 className={`siteTitle ${scrolled>3 ? 'moved' : ''}`}>Chaos Development</h1>
       <div className={`description ${scrolled>20 ? 'hide' : ''}`}>
         <h3>
-          {t('Welcome to Chaos Development, your one-stop solution for professional web development. We specialize in creating user-friendly and visually appealing websites that are optimized for search engines and easy to navigate. Let us help your business stand out online and reach a wider audience.')}
+          {t('Welcome to Chaos Development, where we transform chaos into functional and stunning websites.')}
         </h3>
       </div>
       
       <div className={`description ${scrolled<=20 || scrolled > 40 ? 'hide' : ''} `}>
         <h3>
-          {t("Your website is often the first impression potential customers have of your business. At Chaos Development, we understand the importance of making that impression a positive one. That's why our team of web development experts will work with you to create a website that meets your specific needs and budget.")}
+          {t("At Chaos Development, we believe that a website is not just a digital space; it's a platform that can enhance your business's reach and success.")}
         </h3>
       </div>
       <div className={`description ${scrolled<=40 || scrolled > 60 ? 'hide' : ''} `}>
         <h3>
-          {t("In today's digital age, having a website is crucial for any small business to succeed. At Chaos Development, we have the expertise and experience to help your business thrive online. From simple one-page websites to more complex web applications, we've got you covered.")}
+          {t("From simple pages to nft minting, we offer a comprehensive range of website development services to boost your online presence and increase customer engagement.")}
           </h3>
       </div>
       <div className={`description ${scrolled<=60 ? 'hide' : ''} `}>
         <h3>
-          {t("Don't let a subpar website hold your business back. At Chaos Development, we specialize in creating professional, visually appealing and effective websites that are optimized for search engines and easy to navigate. Let us help you increase your online presence and reach a wider audience. Contact us today to learn more about our services!")}
+          {t("Contact us today to elevate your business's digital presence with a custom website from Chaos Development.")}
         </h3>
       </div>
       <a href="/chaos/#/contact">
-        <button className='callToAction'>
+        <button className='callToAction'
+          style= {styleObj}>
           {t("let's start!")}
         </button>
       </a>

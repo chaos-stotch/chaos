@@ -6,6 +6,7 @@ import Footer from './components/footer/Footer'
 import Contacts from './components/contacts/Contacts'
 import Pricing from './components/pricing/Pricing';
 import Portfolio from './components/portfolio/Portfolio';
+import ScrollToTop from './scrollToTop';
 
 import {
   Routes,
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route exact path ="/" element={
             <div>
+              <ScrollToTop/>
               <Navbar/>
               <Presentation/>
               <Responsiveness/>
@@ -27,6 +29,7 @@ function App() {
           } />
           <Route exact path ="/portfolio" element={
             <div>
+              <ScrollToTop/>
               <Navbar/>
               <Portfolio/>
               <Footer/>
@@ -34,6 +37,7 @@ function App() {
           } />
           <Route exact path ="/pricing" element={
             <div>
+              <ScrollToTop/>
               <Navbar/>
               <Pricing/>
               <Footer/>
@@ -41,6 +45,7 @@ function App() {
           } />
           <Route exact path ="/contact" element={
             <div>
+              <ScrollToTop/>
               <Navbar/>
               <Contacts/>
               <Footer/>

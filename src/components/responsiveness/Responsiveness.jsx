@@ -38,7 +38,7 @@ function Responsiveness() {
         </div>
         <div className="description">
           <h3>
-            {t("At Chaos Development, we understand the importance of having a website that looks great and works seamlessly on any device. That's why we pay close attention to the details and ensure that all of our websites are fully responsive and optimized for all screen sizes. Our team of experts will work with you to create a website that not only looks great but also provides an outstanding user experience for your customers, no matter where they are accessing your site from.")}
+            {t("We at Chaos Development understand the importance of a website that looks and functions flawlessly on every device. To ensure this, our expert team uses responsive design techniques to optimize your site for all screen sizes, from mobiles to desktops.")}
           </h3>
         </div>
     </div>

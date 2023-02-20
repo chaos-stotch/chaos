@@ -18,7 +18,7 @@ function Technologies() {
 
         <div className='description'>
           <p>
-            {t("At Chaos Development, we stay on top of the latest technologies to ensure that your website is not only visually appealing but also fast, reliable and secure. We specialize in using ReactJS, HTML, and CSS to create dynamic and responsive websites that are optimized for search engines and easy to navigate. With our team of experts, you can be sure that your website will be built using the best tools and practices in the industry.")}
+            {t("At Chaos Development, we stay on top of the latest technologies to ensure that your website is not only visually appealing but also fast, reliable and secure. We specialize in using ReactJS, HTML, and CSS to create dynamic and responsive websites that are optimized for search engines and easy to navigate.")}
           </p>
         </div>
         <div className="techIcons">
