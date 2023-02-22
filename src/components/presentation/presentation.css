@@ -114,7 +114,6 @@ li {
         
     }
     60% {
-        background: var(--color-primary-variant);
         box-shadow: 0px 0px 0px 35px var(--color-primary-variant);
     }
     100% {

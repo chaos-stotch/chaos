@@ -12,7 +12,7 @@
         "Technologies": "Technologies",
         "At Chaos Development, we stay on top of the latest technologies to ensure that your website is not only visually appealing but also fast, reliable and secure. We specialize in using ReactJS, HTML, and CSS to create dynamic and responsive websites that are optimized for search engines and easy to navigate.": "At Chaos Development, we stay on top of the latest technologies to ensure that your website is not only visually appealing but also fast, reliable and secure. We specialize in using ReactJS, HTML, and CSS to create dynamic and responsive websites that are optimized for search engines and easy to navigate.",
         "Copyright © 2023 Chaos Development. All rights reserved.": "Copyright © 2023 Chaos Development. All rights reserved.",
-        "Contact": "Contact",
+        "Staff Contact": "Staff Contact",
         "Portfolio": "Portfolio",
         "Live Demo": "Live Demo",
         "Pricing": "Pricing",
@@ -36,6 +36,8 @@
         "E-commerce website: A website that allows customers to make purchases, such as an online store.": "E-commerce website: A website that allows customers to make purchases, such as an online store.",
         "Custom web application: A web application with a custom functionality, such as a CRM system or a booking system.": "Custom web application: A web application with a custom functionality, such as a CRM system or a booking system.",
         "Please note:": "Please note:",
-        "the prices shown here are approximate only, please contact us so we can provide you with a detailed quote.": "the prices shown here are approximate only, please contact us so we can provide you with a detailed quote.s"
+        "the prices shown here are approximate only, please contact us so we can provide you with a detailed quote.": "the prices shown here are approximate only, please contact us so we can provide you with a detailed quote.s",
+        "full-stack developer": "full-stack developer",
+        "sales manager": "sales manager"
     }
 }

@@ -12,7 +12,7 @@
         "Technologies": "Tecnologias",
         "At Chaos Development, we stay on top of the latest technologies to ensure that your website is not only visually appealing but also fast, reliable and secure. We specialize in using ReactJS, HTML, and CSS to create dynamic and responsive websites that are optimized for search engines and easy to navigate.": "Na Chaos Development, estamos sempre atualizados com as últimas tecnologias para garantir que seu site não apenas seja visualmente atraente, mas também rápido, confiável e seguro. Somos especialistas em usar ReactJS, HTML e CSS para criar sites dinâmicos e responsivos que são otimizados para mecanismos de busca e fáceis de navegar.",
         "Copyright © 2023 Chaos Development. All rights reserved.": "Copyright © 2023 Chaos Development. Todos os direitos reservados.",
-        "Contact": "Contato",
+        "Staff Contact": "Contato da Equipe",
         "Portfolio": "Portfólio",
         "Live Demo": "Demonstração",
         "Pricing": "Preços",
@@ -36,6 +36,8 @@
         "E-commerce website: A website that allows customers to make purchases, such as an online store.": "Website de e-commerce: Um website que permite que os clientes façam compras, como uma loja online.",
         "Custom web application: A web application with a custom functionality, such as a CRM system or a booking system.": "Aplicação web personalizada: Uma aplicação web com funcionalidade personalizada, como um sistema CRM ou sistema de reservas.",
         "Please note:": "Por favor, observe:",
-        "the prices shown here are approximate only, please contact us so we can provide you with a detailed quote.": "os preços mostrados aqui são aproximados apenas, entre em contato conosco para que possamos fornecer uma cotação detalhada."
+        "the prices shown here are approximate only, please contact us so we can provide you with a detailed quote.": "os preços mostrados aqui são aproximados apenas, entre em contato conosco para que possamos fornecer uma cotação detalhada.",
+        "full-stack developer": "desenvolvedor full-stack",
+        "sales manager": "gerente de vendas"
     }
 }

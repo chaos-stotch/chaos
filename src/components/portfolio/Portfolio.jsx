@@ -15,14 +15,14 @@ const data = [
     image: IMG1,
     title: 'Manga Reader',
     github: 'https://github.com/chaos-stotch/manga-reader-front',
-    demo: "https://manga-reader-front.herokuapp.com/"
+    demo: "none"
   },
   {
     id: 2,
     image: IMG2,
     title: 'Hercules Bot Website',
-    github: 'none',
-    demo: "none"
+    github: 'https://github.com/chaos-stotch/HerculesWebsite',
+    demo: "https://chaos-stotch.github.io/HerculesWebsite/"
   },
   {
     id: 3,
@@ -43,14 +43,14 @@ const data = [
     image: IMG5,
     title: 'Personal Portfolio',
     github: 'https://github.com/chaos-stotch/myPortfolio',
-    demo: "https://my-portfolio-chaos.herokuapp.com/"
+    demo: "none"
   },
   {
     id: 6,
     image: IMG6,
     title: 'QR Code Component',
     github: 'https://github.com/chaos-stotch/QR-code-component',
-    demo: "https://chaos-stotch.github.io/QR-code-component/"
+    demo: "none"
   }
 ]
 

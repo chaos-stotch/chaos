@@ -15,14 +15,15 @@
 
 th, td {
     border: 1px solid var(--color-primary);
-    border-radius: 5px;
     text-align: center;
     line-height: 20px;
-    padding: 5px 0 5px 0;
+    padding: 5px;
 }
 
 th {
     background-color: var(--color-primary);
+    font-size: 18px;
+    padding: 4px;
     color: black;
 }
 
@@ -53,5 +54,10 @@ th {
 
     .pricing table {
         font-size: 10px;
+    }
+
+    th {
+        font-size: 14px;
+        padding: 2px;
     }
 }
