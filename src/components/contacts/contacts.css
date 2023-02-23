@@ -22,6 +22,8 @@
 
 .contactName {
     font-size: 20px;
+    position: relative;
+    top: -4rem;
 }
 
 .contactDescription {
@@ -30,9 +32,12 @@
     padding: 1rem;
     background-color: rgba(0, 0, 0, 0.411);
     border-radius: .5rem;
+    position: relative;
+    top: -2rem;
 }
 
 .contactList {
+    top: 2rem;
     position: relative;
     text-align: center;
     background-color: #30091e;
@@ -51,8 +56,20 @@
 }
 
 .pfp {
-    width: 150px;
+    width: 200px;
     border-radius: 50rem;
+    position:relative;
+    top: -5rem;
+    border: 5px #30091e solid;
+    background-color: #2e1b37;
+    animation-name: flipcoin;
+    animation-duration: 1s; 
+    animation-timing-function: linear;
+}
+
+.pfp.v2 {
+    border: 5px #2e1b37 solid;
+    background-color: #2e1b37;
 }
 
 .contact > h4 {
@@ -75,17 +92,28 @@
         font-size: 12px;
     }
 
+    .contactList {
+        top: 4rem;
+    }
+
     .contactTitle {
         width: 100%;
         text-align: center;
         margin-left: 0rem;
     }
 
+    .pfp {
+        width: 150px;
+    }
 
     .membersContacts {
         grid-template-columns: 1fr;
-        gap: 1rem;
+        gap: 4rem;
         display: grid;
         padding: 1rem;
     }
+}
+@keyframes flipcoin {
+    from {}
+    to {transform: rotateY(360deg);}
 }

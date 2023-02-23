@@ -46,7 +46,7 @@ function Contacts() {
                 </a>
             </div>
             <div className="contactList v2">
-                <img src={IMG2} alt="" className='pfp' />
+                <img src={IMG2} alt="" className='pfp v2' />
                 <div className="contactName">
                     Samuel
                 </div>
