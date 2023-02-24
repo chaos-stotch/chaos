@@ -51,7 +51,7 @@ function Presentation() {
       </div>
       <div className={`description ${scrolled<=40 || scrolled > 60 ? 'hide' : ''} `}>
         <h3>
-          {t("From simple pages to nft minting, we offer a comprehensive range of website development services to boost your online presence and increase customer engagement.")}
+          {t("From simple to complex pages, we offer a comprehensive range of website development services to boost your online presence and increase customer engagement.")}
           </h3>
       </div>
       <div className={`description ${scrolled<=60 ? 'hide' : ''} `}>
