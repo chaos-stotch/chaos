@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/chaos/static/css/main.b3d0fa6c.css",
-    "main.js": "/chaos/static/js/main.e2c454f2.js",
+    "main.css": "/chaos/static/css/main.39300f5c.css",
+    "main.js": "/chaos/static/js/main.c889faeb.js",
     "static/media/mobile-screen.png": "/chaos/static/media/mobile-screen.852f57a65a4ba4ae4926.png",
     "static/media/portfolio-netflix.png": "/chaos/static/media/portfolio-netflix.c6f9723cf390bb3e8a6c.png",
     "static/media/desktop-screen.png": "/chaos/static/media/desktop-screen.a7233734c9f86b026b98.png",
@@ -13,16 +13,17 @@
     "static/media/hisoka_pfp.jpeg": "/chaos/static/media/hisoka_pfp.279c5daec13f6103cffd.jpeg",
     "static/media/portfolio-qr.png": "/chaos/static/media/portfolio-qr.3a9a07a56cebd731b949.png",
     "static/media/portfolio-portfolio.png": "/chaos/static/media/portfolio-portfolio.e3037de79753edbfb1ae.png",
+    "static/media/btc-logo.png": "/chaos/static/media/btc-logo.4b94bab1d484c8e97710.png",
     "static/media/react.png": "/chaos/static/media/react.809fed23bcdd686de66e.png",
     "static/media/node-js.png": "/chaos/static/media/node-js.e328955d6bbbf3ebc72b.png",
     "static/media/html.png": "/chaos/static/media/html.6e930594286d8afe4c79.png",
     "static/media/css-3.png": "/chaos/static/media/css-3.463e319bad8e0edf1ef7.png",
     "index.html": "/chaos/index.html",
-    "main.b3d0fa6c.css.map": "/chaos/static/css/main.b3d0fa6c.css.map",
-    "main.e2c454f2.js.map": "/chaos/static/js/main.e2c454f2.js.map"
+    "main.39300f5c.css.map": "/chaos/static/css/main.39300f5c.css.map",
+    "main.c889faeb.js.map": "/chaos/static/js/main.c889faeb.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3d0fa6c.css",
-    "static/js/main.e2c454f2.js"
+    "static/css/main.39300f5c.css",
+    "static/js/main.c889faeb.js"
   ]
 }
