@@ -3,6 +3,7 @@ import Presentation from './components/presentation/Presentation'
 import Responsiveness from './components/responsiveness/Responsiveness'
 import Technologies from './components/technologies/Technologies';
 import Footer from './components/footer/Footer'
+import Footer2 from './components/footer2/Footer2';
 import Contacts from './components/contacts/Contacts'
 import Pricing from './components/pricing/Pricing';
 import Portfolio from './components/portfolio/Portfolio';
@@ -32,7 +33,7 @@ function App() {
               <ScrollToTop/>
               <Navbar/>
               <Portfolio/>
-              <Footer/>
+              <Footer2/>
             </div>
           } />
           <Route exact path ="/pricing" element={
@@ -48,7 +49,7 @@ function App() {
               <ScrollToTop/>
               <Navbar/>
               <Contacts/>
-              <Footer/>
+              <Footer2/>
             </div>
           } />
         </Routes>

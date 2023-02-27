@@ -1,14 +1,14 @@
 import React from 'react'
-import './footer.css'
+import './footer2.css'
 import { useTranslation } from 'react-i18next'
 import IMG1 from '../../images/btc-logo.png'
 
-function Footer() {
+function Footer2() {
   const { t } = useTranslation()
 
   return (
     <footer className='pageFooter'>
-      <div className="footerBorder"></div>
+      <div className="footerBorder v2"></div>
         <a href="https://github.com/chaos-stotch" rel="noreferrer" target={'_blank'} className='devGithub'>
             developer github
         </a>
@@ -25,4 +25,4 @@ function Footer() {
   )
 }
 
-export default Footer
+export default Footer2

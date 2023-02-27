@@ -36,12 +36,19 @@
     color: var(--color-white-bone);
 }
 
+
+.btcLogo {
+    width: 80px;
+    margin-top: 1rem;
+}
+
 /*========================== MEDIA QUERIES (MEDIUM DEVICES) ========================== */
 @media screen and (max-width: 1300px) {
     .footerCenter {
         font-size: 10px;
         line-height: 14px;
     }
+
     .devGithub {
         opacity: 0;
     }
