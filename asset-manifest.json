@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/chaos/static/css/main.39300f5c.css",
-    "main.js": "/chaos/static/js/main.c889faeb.js",
+    "main.js": "/chaos/static/js/main.e5a03bb1.js",
     "static/media/mobile-screen.png": "/chaos/static/media/mobile-screen.852f57a65a4ba4ae4926.png",
     "static/media/portfolio-netflix.png": "/chaos/static/media/portfolio-netflix.c6f9723cf390bb3e8a6c.png",
     "static/media/desktop-screen.png": "/chaos/static/media/desktop-screen.a7233734c9f86b026b98.png",
     "static/media/logo.png": "/chaos/static/media/logo.60663d5cebd49e2a2566.png",
     "static/media/chaos_pfp.png": "/chaos/static/media/chaos_pfp.5e5d24c624d58f48a071.png",
+    "static/media/portfolio-bitcoin.png": "/chaos/static/media/portfolio-bitcoin.80e84a8c6d3832cc7ba8.png",
     "static/media/portfolio-mangareader.jpg": "/chaos/static/media/portfolio-mangareader.1a36d58c6b5dd8224fb2.jpg",
     "static/media/portfolio-pokedex.png": "/chaos/static/media/portfolio-pokedex.2c00862edb55849da75f.png",
     "static/media/portfolio-hercules.png": "/chaos/static/media/portfolio-hercules.3baa29ae1a36f01b685c.png",
     "static/media/hisoka_pfp.jpeg": "/chaos/static/media/hisoka_pfp.279c5daec13f6103cffd.jpeg",
-    "static/media/portfolio-qr.png": "/chaos/static/media/portfolio-qr.3a9a07a56cebd731b949.png",
     "static/media/portfolio-portfolio.png": "/chaos/static/media/portfolio-portfolio.e3037de79753edbfb1ae.png",
     "static/media/btc-logo.png": "/chaos/static/media/btc-logo.4b94bab1d484c8e97710.png",
     "static/media/react.png": "/chaos/static/media/react.809fed23bcdd686de66e.png",
@@ -20,10 +20,10 @@
     "static/media/css-3.png": "/chaos/static/media/css-3.463e319bad8e0edf1ef7.png",
     "index.html": "/chaos/index.html",
     "main.39300f5c.css.map": "/chaos/static/css/main.39300f5c.css.map",
-    "main.c889faeb.js.map": "/chaos/static/js/main.c889faeb.js.map"
+    "main.e5a03bb1.js.map": "/chaos/static/js/main.e5a03bb1.js.map"
   },
   "entrypoints": [
     "static/css/main.39300f5c.css",
-    "static/js/main.c889faeb.js"
+    "static/js/main.e5a03bb1.js"
   ]
 }
