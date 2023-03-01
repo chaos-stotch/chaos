@@ -57,6 +57,7 @@
 
 .pfp {
     width: 200px;
+    height: 200px;
     border-radius: 50rem;
     position:relative;
     top: -5rem;
