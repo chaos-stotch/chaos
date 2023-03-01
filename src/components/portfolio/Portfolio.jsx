@@ -6,50 +6,50 @@ import IMG2 from '../../images/portfolio-hercules.png'
 import IMG3 from '../../images/portfolio-netflix.png'
 import IMG4 from '../../images/portfolio-pokedex.png'
 import IMG5 from '../../images/portfolio-portfolio.png'
-import IMG6 from '../../images/portfolio-qr.png'
+import IMG6 from '../../images/portfolio-bitcoin.png'
 import { useTranslation } from 'react-i18next'
 
 const data = [
   {
     id: 1,
+    image: IMG6,
+    title: 'Bitcoin Blockchain Explorer',
+    github: 'https://github.com/chaos-stotch/Bitcoin-Explorer',
+    demo: "https://chaos-stotch.github.io/Bitcoin-Explorer/"
+  },
+  {
+    id: 2,
     image: IMG1,
     title: 'Manga Reader',
     github: 'https://github.com/chaos-stotch/manga-reader-front',
     demo: "none"
   },
   {
-    id: 2,
+    id: 3,
     image: IMG2,
     title: 'Hercules Bot Website',
     github: 'https://github.com/chaos-stotch/HerculesWebsite',
     demo: "https://chaos-stotch.github.io/HerculesWebsite/"
   },
   {
-    id: 3,
+    id: 4,
     image: IMG3,
     title: 'Netflix Clone',
     github: 'https://github.com/chaos-stotch/netflix-clone',
     demo: "none"
   },
   {
-    id: 4,
+    id: 5,
     image: IMG4,
     title: 'Pokédex',
     github: 'https://github.com/chaos-stotch/pokedex',
     demo: "https://chaos-stotch.github.io/pokedex/"
   },
   {
-    id: 5,
+    id: 6,
     image: IMG5,
     title: 'Personal Portfolio',
     github: 'https://github.com/chaos-stotch/myPortfolio',
-    demo: "none"
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'QR Code Component',
-    github: 'https://github.com/chaos-stotch/QR-code-component',
     demo: "none"
   }
 ]
