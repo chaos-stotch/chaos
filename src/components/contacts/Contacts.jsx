@@ -53,10 +53,10 @@ function Contacts() {
                 <div className="contactDescription">
                     {t("sales manager")}
                 </div>
-                <a href="mailto:samuelcomvodka@gmail.com">
+                <a href="samchaoticseller@gmail.com">
                     <div className="contact">
                         <MdEmail className='icon'/>
-                        <h4>samuelcomvodka@gmail.com</h4>
+                        <h4>samchaoticseller@gmail.com</h4>
                     </div>
                 </a>
                 
